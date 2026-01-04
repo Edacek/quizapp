@@ -1,0 +1,150 @@
+[
+    { "_comment": "--- SPORT / EASY ---" },
+    {
+      "question": "Kolik hráčů má fotbalový tým na hřišti?",
+      "answers": ["9", "10", "11"],
+      "correct": 2,
+      "category": "Sport",
+      "difficulty": "easy"
+    },
+  
+    { "_comment": "--- SPORT / MEDIUM ---" },
+    {
+      "question": "Který sportovec drží rekord v počtu zlatých olympijských medailí?",
+      "answers": ["Usain Bolt", "Michael Phelps", "Carl Lewis"],
+      "correct": 1,
+      "category": "Sport",
+      "difficulty": "medium"
+    },
+  
+    { "_comment": "--- SPORT / HARD ---" },
+    {
+      "question": "Ve kterém roce se konaly první moderní olympijské hry?",
+      "answers": ["1896", "1900", "1904"],
+      "correct": 0,
+      "category": "Sport",
+      "difficulty": "hard"
+    },
+  
+    { "_comment": "--- SPORT / EXTREME ---" },
+    {
+      "question": "Jaká byla oficiální délka maratonského závodu na olympijských hrách v Londýně 1908, která stanovila dnešní standard?",
+      "answers": ["40 km", "41,195 km", "42,195 km"],
+      "correct": 2,
+      "category": "Sport",
+      "difficulty": "extreme"
+    },
+  
+    { "_comment": "--- HISTORIE / EASY ---" },
+    {
+      "question": "Ve kterém roce vznikla samostatná Československá republika?",
+      "answers": ["1914", "1918", "1920"],
+      "correct": 1,
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+  
+    { "_comment": "--- HISTORIE / MEDIUM ---" },
+    {
+      "question": "Která událost odstartovala první světovou válku?",
+      "answers": [
+        "Vpád Německa do Polska",
+        "Atentát na Františka Ferdinanda d’Este",
+        "Vyhlášení války Rakousko-Uherskem Srbsku"
+      ],
+      "correct": 1,
+      "category": "Historie",
+      "difficulty": "medium"
+    },
+  
+    { "_comment": "--- HISTORIE / HARD ---" },
+    {
+      "question": "Jak se nazývala hospodářská a politická politika uplatňovaná v Československu po roce 1948?",
+      "answers": ["Marshallův plán", "Pětiletý plán", "New Deal"],
+      "correct": 1,
+      "category": "Historie",
+      "difficulty": "hard"
+    },
+  
+    { "_comment": "--- HISTORIE / EXTREME ---" },
+    {
+      "question": "Který mírový systém po roce 1919 zásadně přetvořil politickou mapu střední Evropy?",
+      "answers": ["Vestfálský systém", "Versailleský systém", "Mnichovský systém"],
+      "correct": 1,
+      "category": "Historie",
+      "difficulty": "extreme"
+    },
+  
+    { "_comment": "--- GEOGRAFIE / EASY ---" },
+    {
+      "question": "Jaké je hlavní město Francie?",
+      "answers": ["Lyon", "Marseille", "Paříž"],
+      "correct": 2,
+      "category": "Geografie",
+      "difficulty": "easy"
+    },
+  
+    { "_comment": "--- GEOGRAFIE / MEDIUM ---" },
+    {
+      "question": "Který stát má největší rozlohu na světě?",
+      "answers": ["Čína", "Kanada", "Rusko"],
+      "correct": 2,
+      "category": "Geografie",
+      "difficulty": "medium"
+    },
+  
+    { "_comment": "--- GEOGRAFIE / HARD ---" },
+    {
+      "question": "Jaká je nejvyšší hora Afriky?",
+      "answers": ["Mount Kenya", "Kilimandžáro", "Ruwenzori"],
+      "correct": 1,
+      "category": "Geografie",
+      "difficulty": "hard"
+    },
+  
+    { "_comment": "--- GEOGRAFIE / EXTREME ---" },
+    {
+      "question": "Který geomorfologický proces je hlavním činitelem při vzniku krasových jevů?",
+      "answers": ["Eroze", "Zvetrávání", "Chemické rozpouštění"],
+      "correct": 2,
+      "category": "Geografie",
+      "difficulty": "extreme"
+    },
+  
+    { "_comment": "--- KULTURA / EASY ---" },
+    {
+      "question": "Kdo napsal knihu Osudy dobrého vojáka Švejka?",
+      "answers": ["Karel Čapek", "Jaroslav Hašek", "Božena Němcová"],
+      "correct": 1,
+      "category": "Kultura",
+      "difficulty": "easy"
+    },
+  
+    { "_comment": "--- KULTURA / MEDIUM ---" },
+    {
+      "question": "Kdo je autorem symfonické básně Vltava?",
+      "answers": ["Antonín Dvořák", "Bedřich Smetana", "Leoš Janáček"],
+      "correct": 1,
+      "category": "Kultura",
+      "difficulty": "medium"
+    },
+  
+    { "_comment": "--- KULTURA / HARD ---" },
+    {
+      "question": "Který literární směr je spojen se jmény Franz Kafka a Albert Camus?",
+      "answers": ["Existencialismus", "Naturalismus", "Realismus"],
+      "correct": 0,
+      "category": "Kultura",
+      "difficulty": "hard"
+    },
+  
+    { "_comment": "--- KULTURA / EXTREME ---" },
+    {
+      "question": "Jak se nazývá estetický princip typický pro barokní umění, založený na kontrastu a dramatičnosti?",
+      "answers": ["Harmonie", "Dynamismus", "Minimalismus"],
+      "correct": 1,
+      "category": "Kultura",
+      "difficulty": "extreme"
+    }
+  ]
+  
