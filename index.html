@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz app</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+
+        <div class="startscreen">
+            <h1 class="heading">Kvízová hra</h1>
+            <div class="settings">
+                <label for="num-questions">Vyber počet otázek:</label>
+                <select name="" id="num-questions">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+
+                <label for="category">Vyber kategorii:</label>
+                <select name="" id="category">
+                    <option value="Vsechno">Všechny kategorie</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Historie">Historie</option>
+                    <option value="Kultura">Kultura</option>
+                    <option value="Geografie">Geografie</option>
+                </select>
+
+                <label for="difficulty"> Vyber úroveň obtížnosti:</label>
+                <select name="" id="difficulty">
+                    <option value="Any-difficulty">Všechny obtížnosti</option>
+                    <option value="easy">Lehký</option>
+                    <option value="medium">Středně těžký</option>
+                    <option value="hard">Těžký</option>    
+                </select>
+
+                <label for="time">Vyber čas:</label>
+                <select name="" id="time">
+                    <option value="10">10 sekund</option>
+                    <option value="15">15 sekund</option>
+                    <option value="20">20 sekund</option>
+                    <option value="30">30 sekund</option>
+                    <option value="60">60 sekund</option>
+                </select>
+            </div>
+            <button class="btn start">Začít kvíz</button>
+        </div>
+
+
+
+
+
+        <div class="quiz hide">
+            <div class="timer">
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                    <span class="progress-text">50</span>
+                </div>
+            </div>
+            <div class="question-wrapper">
+                <div class="number">
+                    Otázka <span class="current">1</span
+                        ><span class="total">/10</span>
+                </div>
+                <div class="question">Toto je otázka</div>
+            </div>
+
+            <div class="answer-wrapper">
+                <div class="answer">
+                    <span class="text">Odpověď</span>
+                    <span class="checkbox">
+                        <span class="icon">✓</span>
+                    </span>
+                </div>
+
+                <div class="answer">
+                    <span class="text">Odpověď</span>
+                    <span class="checkbox">
+                        <span class="icon">✓</span>
+                    </span>
+                </div>
+
+                <div class="answer">
+                    <span class="text">Odpověď</span>
+                    <span class="checkbox">
+                        <span class="icon">✓</span>
+                    </span>
+                </div>
+            </div>
+            <button class="btn submit" disabled>Potvrdit</button>
+            <button class="btn next">Další otázka</button>
+        </div>
+
+
+
+
+        <div class="end-screen hide">
+            <h1 class="heading">Quiz app</h1>
+            <div class="score">
+                <span class="score-text">Tvoje skóre:</span>
+                <div>
+                    <span class="final-score">0</span><span class="total-score">/10</span>
+                </div>
+            </div>
+            <button class="btn restart">Restartovat Kvíz</button>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
