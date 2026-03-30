@@ -1249,7 +1249,7 @@
 {
   "question": "Který evropský stát nemá žádné pohoří vyšší než 500 metrů?",
   "answers": ["Nizozemsko", "Dánsko", "Belgie"],
-  "correct": 1,
+  "correct": 0,
   "category": "Geografie",
   "difficulty": "hard"
 },
